@@ -136,5 +136,13 @@
   box-sizing: border-box;
   width: 50%;
 }
+
 /* 10. exercice-10 */
 
+.exercice-10 .container {
+  display: flex;
+}
+
+.exercice-10 .element {
+  margin: auto;
+}

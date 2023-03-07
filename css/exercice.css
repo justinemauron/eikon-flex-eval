@@ -14,11 +14,23 @@
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-
 }
 
 /* 3. exercice-3 */
 
+.exercice-3 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.exercice-3 .container .element-blue {
+  order: -1;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
 /* 4. exercice-4 */
 
 /* 5. exercice-5 */

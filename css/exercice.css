@@ -63,32 +63,9 @@
 
 .exercice-6 .container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   align-content: space-between;
-}
-
-.exercice-6 .container .element-pink {
-  order: 0;
-}
-
-.exercice-6 .container .element-yellow {
-  order: 1;
-}
-
-.exercice-6 .container .element-grey {
-  order: 2;
-}
-
-.exercice-6 .container .element-red {
-  order: 3;
-}
-
-.exercice-6 .container .element-blue {
-  order: 4;
-}
-
-.exercice-6 .container .element-green {
-  order: 5;
+  flex-direction: row;
 }
 
 .exercice-6 .element {

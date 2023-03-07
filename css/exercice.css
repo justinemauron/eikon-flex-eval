@@ -125,5 +125,16 @@
 
 /* 9. exercice-9 */
 
+.exercice-9 .container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.exercice-9 .element {
+  box-sizing: border-box;
+  width: 50%;
+}
 /* 10. exercice-10 */
 
